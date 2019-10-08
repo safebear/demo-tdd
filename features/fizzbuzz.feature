@@ -41,7 +41,7 @@ Feature: FizzBuzz
   # Any other number, return the number.
   Scenario Outline: Number is not a multiple of 3 or 5
     When I enter the number <number>
-    Then '1' is returned
+    Then '<number>' is returned
     Examples:
       | number |
       | 1      |
@@ -55,4 +55,7 @@ Scenario: Input is not a number
 
 @exploratory
 Scenario: Input is empty
+
+@exploratory
+Scenario: Large numbers!
 

@@ -12,7 +12,7 @@ function fizzbuzz(numberToCheck){
     return 'Buzz'
   }
 
-  return '1'
+  return numberToCheck.toString();
 
 }
 
