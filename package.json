@@ -1,0 +1,13 @@
+{
+  "name": "fizzbuzz",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "cucumber-js --tags 'not @exploratory'"
+  },
+  "author": "Simon Stratton <simon.stratton@safebear.co.uk>",
+  "license": "MIT",
+  "devDependencies": {
+    "cucumber": "^6.0.1"
+  }
+}
