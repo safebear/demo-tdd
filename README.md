@@ -1,9 +1,14 @@
 # BDD and TDD demo
 
+## To Do
+
+Change to Jesus vs Sharks
+Set up base framework in a branch
+Practice steps
 
 ### Maybe:
 
-Add reporter?:
+Add cucumber reporter?:
 https://www.npmjs.com/package/cucumber-html-reporter
 Add API?
 
