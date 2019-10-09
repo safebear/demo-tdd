@@ -1,5 +1,9 @@
 function fizzbuzz(numberToCheck){
 
+  if (numberToCheck > 5555555555555555) {
+    return 'Number too large'
+  }
+
   if(numberToCheck % 3 === 0 && numberToCheck % 5 === 0 ){
     return 'FizzBuzz'
   }

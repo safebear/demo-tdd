@@ -2,8 +2,7 @@
 
 ## To Do
 
-Add mutation testing
-Add watch
+Add Jest and mutation testing
 
 
 ### Maybe:
@@ -31,16 +30,18 @@ Add API?
 12. Fix the FizzBuzz test by changing the code, but then also seeing that we need to refactor the if statement and bring it to the top.
 13. Fix the normal test. Also see if you can refactor to make it simpler.
 
+FAST
+INSTANT FEEDBACK
+
 ### e2e
 
 1. Add the template index.html
 2. Complete the front end
-3. Complete the 'glue'
+3. Complete the 'controller'
 4. Add the e2e directory
 5. Add the protractor.config.js template and update with url and tags
 6. Run the e2e tests and add the step defs templates
 7. Complete the step defs
-
 
 ### Exploratory Testing
 
@@ -52,12 +53,22 @@ Add API?
 3. Demo that a huge number doesn't work (by adding 5 onto a number)
 4. Refactor code to return an error if the number is too large - easy to do now we've got all the other tests protecting us!
 
+EASY AND SECURE REFACTORING
+
+
+### e2e tests only - Protractor
+
+Just add e2e tag to all
+
+ORDERS OF MAGNITUDE SLOWER THAN FUNCTIONAL TESTS
+
 
 ### Jest
 
 1. Quickly spin up the tests and code in Jest
 2. Run mutation tests to see what kind of coverage and mutation coverage we have - without frontend.
 
+COVERAGE
 
 ### DOM TDD?
 

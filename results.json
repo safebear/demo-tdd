@@ -1,0 +1,820 @@
+[
+  {
+    "description": "  Acceptance Criteria:\n\n  - If a number is a multiple of 3, print Fizz\n  - If a number is a multiple of 5, print Buzz\n  - If a number is a multiple of 3 and 5, print FizzBuzz\n  - Any other number, return the number.",
+    "keyword": "Feature",
+    "name": "FizzBuzz",
+    "line": 1,
+    "id": "fizzbuzz",
+    "tags": [],
+    "uri": "features/fizzbuzz.feature",
+    "elements": [
+      {
+        "id": "fizzbuzz;number-is-a-multiple-of-3",
+        "keyword": "Scenario",
+        "line": 18,
+        "name": "Number is a multiple of 3",
+        "tags": [
+          {
+            "name": "@e2e",
+            "line": 11
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "e2e/step_definitions/fizzbuzz.steps.js:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 374000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 14,
+            "name": "I enter the number 3",
+            "match": {
+              "location": "e2e/step_definitions/fizzbuzz.steps.js:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 174000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 15,
+            "name": "'Fizz' is returned",
+            "match": {
+              "location": "e2e/step_definitions/fizzbuzz.steps.js:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 36000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules/protractor-cucumber-framework/lib/resultsCapturer.js:26"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "fizzbuzz;number-is-a-multiple-of-3",
+        "keyword": "Scenario",
+        "line": 19,
+        "name": "Number is a multiple of 3",
+        "tags": [
+          {
+            "name": "@e2e",
+            "line": 11
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "e2e/step_definitions/fizzbuzz.steps.js:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 45000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 14,
+            "name": "I enter the number 6",
+            "match": {
+              "location": "e2e/step_definitions/fizzbuzz.steps.js:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 112000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 15,
+            "name": "'Fizz' is returned",
+            "match": {
+              "location": "e2e/step_definitions/fizzbuzz.steps.js:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 26000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules/protractor-cucumber-framework/lib/resultsCapturer.js:26"
+            },
+            "result": {
+              "status": "passed"
+            }
+          }
+        ]
+      },
+      {
+        "id": "fizzbuzz;number-is-a-multiple-of-3",
+        "keyword": "Scenario",
+        "line": 20,
+        "name": "Number is a multiple of 3",
+        "tags": [
+          {
+            "name": "@e2e",
+            "line": 11
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "e2e/step_definitions/fizzbuzz.steps.js:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 33000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 14,
+            "name": "I enter the number 9",
+            "match": {
+              "location": "e2e/step_definitions/fizzbuzz.steps.js:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 124000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 15,
+            "name": "'Fizz' is returned",
+            "match": {
+              "location": "e2e/step_definitions/fizzbuzz.steps.js:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 31000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules/protractor-cucumber-framework/lib/resultsCapturer.js:26"
+            },
+            "result": {
+              "status": "passed"
+            }
+          }
+        ]
+      },
+      {
+        "id": "fizzbuzz;number-is-a-multiple-of-5",
+        "keyword": "Scenario",
+        "line": 29,
+        "name": "Number is a multiple of 5",
+        "tags": [
+          {
+            "name": "@e2e",
+            "line": 22
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "e2e/step_definitions/fizzbuzz.steps.js:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 43000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 25,
+            "name": "I enter the number 5",
+            "match": {
+              "location": "e2e/step_definitions/fizzbuzz.steps.js:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 122000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 26,
+            "name": "'Buzz' is returned",
+            "match": {
+              "location": "e2e/step_definitions/fizzbuzz.steps.js:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 29000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules/protractor-cucumber-framework/lib/resultsCapturer.js:26"
+            },
+            "result": {
+              "status": "passed"
+            }
+          }
+        ]
+      },
+      {
+        "id": "fizzbuzz;number-is-a-multiple-of-5",
+        "keyword": "Scenario",
+        "line": 30,
+        "name": "Number is a multiple of 5",
+        "tags": [
+          {
+            "name": "@e2e",
+            "line": 22
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "e2e/step_definitions/fizzbuzz.steps.js:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 35000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 25,
+            "name": "I enter the number 10",
+            "match": {
+              "location": "e2e/step_definitions/fizzbuzz.steps.js:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 120000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 26,
+            "name": "'Buzz' is returned",
+            "match": {
+              "location": "e2e/step_definitions/fizzbuzz.steps.js:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 27000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules/protractor-cucumber-framework/lib/resultsCapturer.js:26"
+            },
+            "result": {
+              "status": "passed"
+            }
+          }
+        ]
+      },
+      {
+        "id": "fizzbuzz;number-is-a-multiple-of-5",
+        "keyword": "Scenario",
+        "line": 31,
+        "name": "Number is a multiple of 5",
+        "tags": [
+          {
+            "name": "@e2e",
+            "line": 22
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "e2e/step_definitions/fizzbuzz.steps.js:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 38000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 25,
+            "name": "I enter the number 20",
+            "match": {
+              "location": "e2e/step_definitions/fizzbuzz.steps.js:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 119000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 26,
+            "name": "'Buzz' is returned",
+            "match": {
+              "location": "e2e/step_definitions/fizzbuzz.steps.js:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 31000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules/protractor-cucumber-framework/lib/resultsCapturer.js:26"
+            },
+            "result": {
+              "status": "passed"
+            }
+          }
+        ]
+      },
+      {
+        "id": "fizzbuzz;number-is-a-multiple-of-3-and-5",
+        "keyword": "Scenario",
+        "line": 40,
+        "name": "Number is a multiple of 3 and 5",
+        "tags": [
+          {
+            "name": "@e2e",
+            "line": 33
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "e2e/step_definitions/fizzbuzz.steps.js:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 35000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 36,
+            "name": "I enter the number 15",
+            "match": {
+              "location": "e2e/step_definitions/fizzbuzz.steps.js:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 130000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 37,
+            "name": "'FizzBuzz' is returned",
+            "match": {
+              "location": "e2e/step_definitions/fizzbuzz.steps.js:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 62000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules/protractor-cucumber-framework/lib/resultsCapturer.js:26"
+            },
+            "result": {
+              "status": "passed"
+            }
+          }
+        ]
+      },
+      {
+        "id": "fizzbuzz;number-is-a-multiple-of-3-and-5",
+        "keyword": "Scenario",
+        "line": 41,
+        "name": "Number is a multiple of 3 and 5",
+        "tags": [
+          {
+            "name": "@e2e",
+            "line": 33
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "e2e/step_definitions/fizzbuzz.steps.js:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 36000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 36,
+            "name": "I enter the number 30",
+            "match": {
+              "location": "e2e/step_definitions/fizzbuzz.steps.js:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 111000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 37,
+            "name": "'FizzBuzz' is returned",
+            "match": {
+              "location": "e2e/step_definitions/fizzbuzz.steps.js:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 28000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules/protractor-cucumber-framework/lib/resultsCapturer.js:26"
+            },
+            "result": {
+              "status": "passed"
+            }
+          }
+        ]
+      },
+      {
+        "id": "fizzbuzz;number-is-a-multiple-of-3-and-5",
+        "keyword": "Scenario",
+        "line": 42,
+        "name": "Number is a multiple of 3 and 5",
+        "tags": [
+          {
+            "name": "@e2e",
+            "line": 33
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "e2e/step_definitions/fizzbuzz.steps.js:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 34000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 36,
+            "name": "I enter the number 45",
+            "match": {
+              "location": "e2e/step_definitions/fizzbuzz.steps.js:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 123000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 37,
+            "name": "'FizzBuzz' is returned",
+            "match": {
+              "location": "e2e/step_definitions/fizzbuzz.steps.js:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 24000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules/protractor-cucumber-framework/lib/resultsCapturer.js:26"
+            },
+            "result": {
+              "status": "passed"
+            }
+          }
+        ]
+      },
+      {
+        "id": "fizzbuzz;number-is-not-a-multiple-of-3-or-5",
+        "keyword": "Scenario",
+        "line": 51,
+        "name": "Number is not a multiple of 3 or 5",
+        "tags": [
+          {
+            "name": "@e2e",
+            "line": 44
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "e2e/step_definitions/fizzbuzz.steps.js:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 33000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 47,
+            "name": "I enter the number 1",
+            "match": {
+              "location": "e2e/step_definitions/fizzbuzz.steps.js:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 123000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 48,
+            "name": "'1' is returned",
+            "match": {
+              "location": "e2e/step_definitions/fizzbuzz.steps.js:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 28000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules/protractor-cucumber-framework/lib/resultsCapturer.js:26"
+            },
+            "result": {
+              "status": "passed"
+            }
+          }
+        ]
+      },
+      {
+        "id": "fizzbuzz;number-is-not-a-multiple-of-3-or-5",
+        "keyword": "Scenario",
+        "line": 52,
+        "name": "Number is not a multiple of 3 or 5",
+        "tags": [
+          {
+            "name": "@e2e",
+            "line": 44
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "e2e/step_definitions/fizzbuzz.steps.js:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 32000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 47,
+            "name": "I enter the number 2",
+            "match": {
+              "location": "e2e/step_definitions/fizzbuzz.steps.js:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 121000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 48,
+            "name": "'2' is returned",
+            "match": {
+              "location": "e2e/step_definitions/fizzbuzz.steps.js:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 26000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules/protractor-cucumber-framework/lib/resultsCapturer.js:26"
+            },
+            "result": {
+              "status": "passed"
+            }
+          }
+        ]
+      },
+      {
+        "id": "fizzbuzz;number-is-not-a-multiple-of-3-or-5",
+        "keyword": "Scenario",
+        "line": 53,
+        "name": "Number is not a multiple of 3 or 5",
+        "tags": [
+          {
+            "name": "@e2e",
+            "line": 44
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "e2e/step_definitions/fizzbuzz.steps.js:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 35000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 47,
+            "name": "I enter the number 4",
+            "match": {
+              "location": "e2e/step_definitions/fizzbuzz.steps.js:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 121000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 48,
+            "name": "'4' is returned",
+            "match": {
+              "location": "e2e/step_definitions/fizzbuzz.steps.js:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 27000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules/protractor-cucumber-framework/lib/resultsCapturer.js:26"
+            },
+            "result": {
+              "status": "passed"
+            }
+          }
+        ]
+      },
+      {
+        "id": "fizzbuzz;large-numbers!",
+        "keyword": "Scenario",
+        "line": 64,
+        "name": "Large numbers!",
+        "tags": [
+          {
+            "name": "@e2e",
+            "line": 63
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "e2e/step_definitions/fizzbuzz.steps.js:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 35000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 65,
+            "name": "I enter the number 55555555555555555",
+            "match": {
+              "location": "e2e/step_definitions/fizzbuzz.steps.js:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 150000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 66,
+            "name": "'Number too large' is returned",
+            "match": {
+              "location": "e2e/step_definitions/fizzbuzz.steps.js:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 23000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules/protractor-cucumber-framework/lib/resultsCapturer.js:26"
+            },
+            "result": {
+              "status": "passed"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

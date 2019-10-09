@@ -1,4 +1,4 @@
-function glue() {
+function fizzbuzzController() {
   // Get the value from the input field
   let input = document.querySelector("#userInput").value;
 

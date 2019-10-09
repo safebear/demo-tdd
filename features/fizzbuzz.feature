@@ -8,6 +8,7 @@ Feature: FizzBuzz
   - Any other number, return the number.
 
 
+  @e2e
   # If a number is a multiple of 3, print Fizz
   Scenario Outline: Number is a multiple of 3
     When I enter the number <number>
@@ -18,6 +19,7 @@ Feature: FizzBuzz
       | 6      |
       | 9      |
 
+  @e2e
   # If a number is a multiple of 5, print Buzz
   Scenario Outline: Number is a multiple of 5
     When I enter the number <number>
@@ -28,6 +30,7 @@ Feature: FizzBuzz
       | 10     |
       | 20     |
 
+  @e2e
   # If a number is a multiple of 3 and 5, print FizzBuzz
   Scenario Outline: Number is a multiple of 3 and 5
     When I enter the number <number>
@@ -38,6 +41,7 @@ Feature: FizzBuzz
       | 30     |
       | 45     |
 
+  @e2e
   # Any other number, return the number.
   Scenario Outline: Number is not a multiple of 3 or 5
     When I enter the number <number>
@@ -56,6 +60,8 @@ Scenario: Input is not a number
 @exploratory
 Scenario: Input is empty
 
-@exploratory
+@e2e
 Scenario: Large numbers!
+  When I enter the number 55555555555555555
+  Then 'Number too large' is returned
 
