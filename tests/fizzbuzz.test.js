@@ -48,3 +48,12 @@ describe.each`
       expect(fizzbuzz(input)).toEqual(output);
   });
 });
+
+describe.each`
+    input | output     
+    ${5555555555555556}  | ${'Number too large'}  
+  `('returns $output when $input is entered', ({input, output}) => {
+    test('large number.', () => {
+      expect(fizzbuzz(input)).toEqual(output);
+  });
+});

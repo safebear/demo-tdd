@@ -62,6 +62,6 @@ Scenario: Input is empty
 
 @e2e
 Scenario: Large numbers!
-  When I enter the number 55555555555555555
+  When I enter the number 5555555555555556
   Then 'Number too large' is returned
 

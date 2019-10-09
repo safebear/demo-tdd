@@ -1,9 +1,5 @@
 # BDD and TDD demo
 
-## To Do
-
-Add Jest and mutation testing
-
 
 ### Maybe:
 
@@ -43,6 +39,8 @@ INSTANT FEEDBACK
 6. Run the e2e tests and add the step defs templates
 7. Complete the step defs
 
+ONLY TESTING THE DOM AND CONTROLLER - NO FUNCTIONAL TESTS NEEDED AS NO LOGIC IN FRONTEND
+
 ### Exploratory Testing
 
 1. Add that @exploratory tags should be ignored
@@ -66,12 +64,13 @@ ORDERS OF MAGNITUDE SLOWER THAN FUNCTIONAL TESTS
 ### Jest
 
 1. Quickly spin up the tests and code in Jest
-2. Run mutation tests to see what kind of coverage and mutation coverage we have - without frontend.
+2. Check code coverage - 100%!
+2. Run mutation tests - problems with our controller, but also one of our tests isn't good enough!
 
 COVERAGE
 
 ### DOM TDD?
 
-*How do we do this? With Browser Monkey?*
+*How do we do test our controller and DOM? With Browser Monkey?*
 
 

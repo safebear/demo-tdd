@@ -4,7 +4,9 @@ module.exports = function(config) {
     packageManager: "yarn",
     reporters: ["html", "clear-text", "progress", "dashboard"],
     testRunner: "jest",
-    transpilers: [],
-    coverageAnalysis: "on"
+    coverageAnalysis: "on",
+    // logLevel: 'debug',
+    jest: {enableFindRelatedTests: false}
+
   });
 };
