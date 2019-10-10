@@ -2,9 +2,10 @@
 
 ## To Do
 
-Change to Jesus vs Sharks
 Set up base framework in a branch
 Practice steps
+Browser Monkey
+Jest extension? Any other extension?
 
 ### Maybe:
 

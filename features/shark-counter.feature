@@ -1,51 +1,52 @@
-Feature: FizzBuzz
+Feature: Shark Counter
 
   Acceptance Criteria:
 
-  - If a number is a multiple of 3, print Fizz
-  - If a number is a multiple of 5, print Buzz
-  - If a number is a multiple of 3 and 5, print FizzBuzz
-  - Any other number, return the number.
+Number of sharks divides by three? Jesus Wins!
+Number of sharks divides by five? Shark Wins…
+Number of sharks divides by three and five, it’s a draw.
+Any other number of sharks, it’s the Apocalypse.
+
 
 
   @e2e
-  # If a number is a multiple of 3, print Fizz
+  # Number of sharks divides by three? Jesus Wins!
   Scenario Outline: Number is a multiple of 3
     When I enter the number <number>
-    Then 'Fizz' is returned
+    Then 'Jesus Wins' is returned
     Examples:
       | number |
       | 3      |
       | 6      |
       | 9      |
 
-  @e2e
-  # If a number is a multiple of 5, print Buzz
+
+  # Number of sharks divides by five? Shark Wins…
   Scenario Outline: Number is a multiple of 5
     When I enter the number <number>
-    Then 'Buzz' is returned
+    Then 'Jesus Loses' is returned
     Examples:
       | number |
       | 5      |
       | 10     |
       | 20     |
 
-  @e2e
-  # If a number is a multiple of 3 and 5, print FizzBuzz
+
+  # Number of sharks divides by three and five, it’s a draw.
   Scenario Outline: Number is a multiple of 3 and 5
     When I enter the number <number>
-    Then 'FizzBuzz' is returned
+    Then 'Draw' is returned
     Examples:
       | number |
       | 15     |
       | 30     |
       | 45     |
 
-  @e2e
-  # Any other number, return the number.
+
+  # Any other number of sharks, it’s the Apocalypse.
   Scenario Outline: Number is not a multiple of 3 or 5
     When I enter the number <number>
-    Then '<number>' is returned
+    Then 'Apocalypse!' is returned
     Examples:
       | number |
       | 1      |
@@ -60,7 +61,6 @@ Scenario: Input is not a number
 @exploratory
 Scenario: Input is empty
 
-@e2e
 Scenario: Large numbers!
   When I enter the number 5555555555555556
   Then 'Number too large' is returned
