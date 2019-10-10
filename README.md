@@ -4,7 +4,9 @@
 
 Set up base framework in a branch
 Practice steps
-Browser Monkey
+Browser Monkey or maybe just Jest: 
+https://jestjs.io/docs/en/tutorial-jquery
+https://testing-library.com/docs/ecosystem-jest-dom
 Jest extension? Any other extension?
 
 ### Maybe:
