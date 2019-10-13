@@ -21,7 +21,10 @@
     "grid": "webdriver-manager update && webdriver-manager start",
     "e2e": "protractor ./e2e/protractor.conf.js",
     "watch": "npm-watch",
-    "jest": "jest -o"
+    "jest": "jest",
+    "jest-watch": "jest --watch",
+    "bundle": "browserify ./src/display-result.js -o ./src/bundle.js",
+    "mutants": "stryker run"
   },
   "author": "Simon Stratton <simon.stratton@safebear.co.uk>",
   "license": "MIT",
@@ -30,8 +33,10 @@
     "@stryker-mutator/html-reporter": "^2.1.0",
     "@stryker-mutator/javascript-mutator": "^2.1.0",
     "@stryker-mutator/jest-runner": "^2.1.0",
+    "browserify": "^16.5.0",
     "cucumber": "5.1.0",
     "jest": "^24.9.0",
+    "jquery": "^3.4.1",
     "npm-watch": "^0.6.0",
     "protractor": "^5.4.2",
     "protractor-cucumber-framework": "^6.1.3"

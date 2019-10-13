@@ -1,59 +1,51 @@
-const sharkCounter = require('../src/shark-counter').sharkCounter
+const sharkCounter = require("../src/shark-counter");
 
 // Number of sharks divides by three? Jesus Wins!
 // Number of sharks divides by five? Shark Wins…
 // Number of sharks divides by three and five, it’s a draw.
 // Any other number of sharks, it’s the Apocalypse.
 
-describe.each`
-    input    
-    ${3}  
-    ${9} 
-    ${12} 
-  `('returns Jesus Wins when $input is entered', ({input}) => {
-    test('Number of sharks divides by three? Jesus Wins!', () => {
-      expect(sharkCounter(input)).toEqual("Jesus Wins");
+describe("Jesus vs Sharks", () => {
+  test.each`
+    numSharks
+    ${3}
+    ${6}
+    ${9}
+  `("$numSharks divides by 3, Jesus wins", ({ numSharks }) => {
+    expect(sharkCounter(numSharks)).toEqual("Jesus Wins");
   });
-});
 
-describe.each`
-    input     
-    ${5} 
+  test.each`
+    numSharks
+    ${5}
     ${10}
     ${20}
-  `('returns Jesus Loses when $input is entered', ({input}) => {
-    test('Number of sharks divides by five? Shark Wins…', () => {
-      expect(sharkCounter(input)).toEqual("Jesus Loses");
+  `("$numSharks divides by 5, Jesus loses", ({ numSharks }) => {
+    expect(sharkCounter(numSharks)).toEqual("Jesus Loses");
   });
-});
 
-describe.each`
-    input    
-    ${15}   
-    ${30} 
-    ${60}
-  `('returns Draw when $input is entered', ({input}) => {
-    test('Number of sharks divides by three and five, it’s a draw.', () => {
-      expect(sharkCounter(input)).toEqual("Draw");
+  test.each`
+    numSharks
+    ${15}
+    ${30}
+    ${45}
+  `("$numSharks divides by 3 and 5, drew", ({ numSharks }) => {
+    expect(sharkCounter(numSharks)).toEqual("Draw");
   });
-});
 
-describe.each`
-    input   
-    ${1} 
+  test.each`
+    numSharks
+    ${1}
     ${2}
     ${4}
-  `('returns Apocalypse! when $input is entered', ({input}) => {
-    test('Any other number of sharks, it’s the Apocalypse.', () => {
-      expect(sharkCounter(input)).toEqual('Apocalypse!');
+  `("$numSharks doesnt divide by 3 or 5, Apocalypse", ({ numSharks }) => {
+    expect(sharkCounter(numSharks)).toEqual("Apocalypse!");
   });
-});
 
-describe.each`
-    input     
-    ${5555555555555556} 
-  `('returns number too large when $input is entered', ({input}) => {
-    test('large number.', () => {
-      expect(sharkCounter(input)).toEqual('Number too large');
+  test.each`
+    numSharks
+    ${5555555555555556}
+  `("$numSharks number is too large", ({ numSharks }) => {
+    expect(sharkCounter(numSharks)).toEqual("Number too large");
   });
 });

@@ -29,7 +29,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 374000000
+              "duration": 314000000
             }
           },
           {
@@ -42,7 +42,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 187000000
+              "duration": 154000000
             }
           },
           {
@@ -54,9 +54,8 @@
               "location": "e2e/step_definitions/shark-counter.e2e.steps.js:16"
             },
             "result": {
-              "status": "failed",
-              "duration": 44000000,
-              "error_message": "AssertionError [ERR_ASSERTION]: Results don't match\n    + expected - actual\n\n    +Jesus Wins\n\n    at World.<anonymous> (/Users/standoubt/Documents/safebear/fizzbuzz/e2e/step_definitions/shark-counter.e2e.steps.js:17:10)\n    at process._tickCallback (internal/process/next_tick.js:68:7)"
+              "status": "passed",
+              "duration": 31000000
             }
           },
           {
@@ -66,7 +65,8 @@
               "location": "node_modules/protractor-cucumber-framework/lib/resultsCapturer.js:26"
             },
             "result": {
-              "status": "passed"
+              "status": "passed",
+              "duration": 1000000
             }
           }
         ]
@@ -92,7 +92,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 50000000
+              "duration": 49000000
             }
           },
           {
@@ -105,7 +105,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 122000000
+              "duration": 118000000
             }
           },
           {
@@ -117,9 +117,8 @@
               "location": "e2e/step_definitions/shark-counter.e2e.steps.js:16"
             },
             "result": {
-              "status": "failed",
-              "duration": 27000000,
-              "error_message": "AssertionError [ERR_ASSERTION]: Results don't match\n    + expected - actual\n\n    +Jesus Wins\n\n    at World.<anonymous> (/Users/standoubt/Documents/safebear/fizzbuzz/e2e/step_definitions/shark-counter.e2e.steps.js:17:10)\n    at process._tickCallback (internal/process/next_tick.js:68:7)"
+              "status": "passed",
+              "duration": 26000000
             }
           },
           {
@@ -129,7 +128,8 @@
               "location": "node_modules/protractor-cucumber-framework/lib/resultsCapturer.js:26"
             },
             "result": {
-              "status": "passed"
+              "status": "passed",
+              "duration": 1000000
             }
           }
         ]
@@ -155,7 +155,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 38000000
+              "duration": 37000000
             }
           },
           {
@@ -168,7 +168,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 113000000
+              "duration": 151000000
             }
           },
           {
@@ -180,9 +180,8 @@
               "location": "e2e/step_definitions/shark-counter.e2e.steps.js:16"
             },
             "result": {
-              "status": "failed",
-              "duration": 24000000,
-              "error_message": "AssertionError [ERR_ASSERTION]: Results don't match\n    + expected - actual\n\n    +Jesus Wins\n\n    at World.<anonymous> (/Users/standoubt/Documents/safebear/fizzbuzz/e2e/step_definitions/shark-counter.e2e.steps.js:17:10)\n    at process._tickCallback (internal/process/next_tick.js:68:7)"
+              "status": "passed",
+              "duration": 27000000
             }
           },
           {

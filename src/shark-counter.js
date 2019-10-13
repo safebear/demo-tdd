@@ -20,4 +20,4 @@ function sharkCounter(numberToCheck){
 
 }
 
-module.exports.sharkCounter = sharkCounter;
+module.exports = sharkCounter;
