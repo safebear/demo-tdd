@@ -1,0 +1,12 @@
+{
+  "Jest Step Definitions": {
+    "scope": "javascript",
+    "prefix": "steps",
+    "body": ["import { defineFeature, loadFeature } from 'jest-cucumber';","const feature = loadFeature('$1');","defineFeature(feature, test => {","test('$2', ({ given, when, then }) => {","given('$3', () => {","});","when('$4', () => {","});","then('$0', () => {","});","});","});"]
+  },
+  "Basic Website": {
+    "scope": "html",
+    "prefix": "website",
+    "body": "$BLOCK_COMMENT_START Hello World $BLOCK_COMMENT_END"
+  }
+}

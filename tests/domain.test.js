@@ -1,6 +1,6 @@
 const assert = require('assert');
 const { When, Then } = require('cucumber');
-const sharkCounter = require('../../src/shark-counter')
+const sharkCounter = require('../src/shark-counter')
 
 let sharkAttackResult;
 
