@@ -1,3 +1,4 @@
+
 /**
  * @jest-environment jsdom
  */
@@ -11,11 +12,10 @@ jest
 
 test('displays result after clicking on button', async () => {
 
-
   // Set up our document body
   document.documentElement.innerHTML = html.toString() 
 
-  // This module has a side-effect
+  // The JavaScript to load
   require('../src/display-result');
 
   // Use jquery to update our user input value

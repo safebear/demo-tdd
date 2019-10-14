@@ -1,0 +1,103 @@
+{
+  "Jest Describe": {
+    "scope": "javascript",
+    "prefix": "desc",
+    "body": ["describe('$1', () => {","$0","});"]
+  },
+
+  "Test Each": {
+    "scope": "javascript",
+    "prefix": "teste",
+    "body": ["test.each`","input","${$1}","`('$2', ({ input }) => {","expect($3).toBe($0);","});"]
+  },
+
+  "Simple Website": {
+    "scope": "html",
+    "prefix": "website",
+    "body": ["<!DOCTYPE html>",
+      "<html>",
+          "<head>",
+            "<title>$1</title>",
+            "<script src='bundle.js' defer></script>",
+            "<link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css'>",
+            "<script src='https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js'></script>",
+            "<script src='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js'></script>", 
+            "<style type='text/css'>",
+              ".login-form {",
+                "width: 340px;",
+                  "margin: 50px auto;",
+              "}",
+                ".login-form form {",
+                  "margin-bottom: 15px;",
+                    "background: #f7f7f7;",
+                    "box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);",
+                    "padding: 30px;",
+                "}",
+                ".login-form h2 {",
+                    "margin: 0 0 15px;",
+                "}",
+                ".form-control, .btn {",
+                    "min-height: 38px;",
+                    "border-radius: 2px;",
+                "}",
+                ".btn {",        
+                    "font-size: 15px;",
+                    "font-weight: bold;",
+                "}",
+            "</style>",
+          "</head>",
+          "<body>",
+      
+          "<div class='login-form'>",
+      
+                "<h2 class='text-center'>$0</h2>",
+          
+                "<form>",
+                  "<div class='form-group'>",
+                  "</div>",
+                  "<div class='form-group'>",
+                  "</div>",
+                "</form>",
+            
+          "</div>",
+      
+        "</body>",
+      
+      "</html>"
+
+    ]
+  },
+
+  "JSDom Test": {
+    "scope": "javascript",
+    "prefix": "jsdom",
+    "body": [
+      "/**",
+ "* @jest-environment jsdom",
+ "*/",
+
+"const html = require('fs').readFileSync('./src/index.html').toString();",
+"const $ = require('jquery');",
+
+"jest",
+  ".dontMock('fs')",
+  ".dontMock('jquery');",
+
+"test('$1', async () => {",
+
+  "// Set up our document body",
+  "document.documentElement.innerHTML = html.toString()",
+
+  "// The JavaScript to load",
+  "require('$2');",
+
+  "// Use jquery to perform our actions",
+
+  "// Assert that the correct result is on screen",
+  "expect($3).toBe($0);",
+"});"
+    ]
+  },
+
+  
+}
