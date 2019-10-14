@@ -1,15 +1,6 @@
 # BDD and TDD demo
 
-## To Do
-
-Set up base framework in a branch
-Practice steps
-Browser Monkey or maybe just Jest: 
-https://jestjs.io/docs/en/tutorial-jquery
-https://testing-library.com/docs/ecosystem-jest-dom
-Jest extension? Any other extension?
-
-### Maybe:
+## To Do Maybe:
 
 Add cucumber reporter?:
 https://www.npmjs.com/package/cucumber-html-reporter
